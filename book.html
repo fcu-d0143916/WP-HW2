@@ -1,0 +1,48 @@
+﻿<!doctype html>
+
+<html>
+ <head><title>Web程式設計HW2借書系統</title></head>
+
+ <body>
+  <h1>圖書館借書系統</h1>
+  <form method = "post" action = "">
+   <b>書名:</b>
+   <input type = "text" name = "bookName" value = "Web Programming" size = "15"><br>
+   <br>
+   <b>姓名:</b>
+   <input type = "text" name = "userName" value = "王啟安" size = "15"><br>
+  
+  <br>
+  
+  <b>性別:</b>
+   <input type="radio" name="gender" value="male"> <b>男</b>
+   <input type="radio" name="gender" value="female"> <b>女</b>
+
+   <br>
+   <br>
+  
+  <b>學系:</b>
+   <select name="department">
+    <option selected>軟創</option>
+    <option value="資工">資工</option>
+    <option value="電機">電機</option>
+    <option value="通訊">通訊</option>
+   </select>
+
+   <br>
+   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+   <input type = "submit" value = "借書">
+   <input type = "reset" value = "重設">
+  </form>
+
+
+  <br><br><br>
+  學系
+  <ul>
+   <li>資工</li>
+   <li>電機</li>
+   <li>通訊</li>
+  </ul>
+ </body>
+</html>
